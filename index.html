@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Adventures</title>
+<body>
+
+    <header>
+        <h1>Wanderlust Adventures: Discover the World</h1>
+    </header>
+
+    <div class="container">
+        
+        <div class="destination-card">
+            <h2>Paris, France 🇫🇷</h2>
+            <p>The "City of Light" is known for its art, fashion, gastronomy, and culture. A must-see destination for romance and history lovers.</p>
+            
+            <div id="paris-details" class="hidden-content">
+                <p><strong>Travel Tip:</strong> Don't forget to try the croissants and visit the Louvre Museum! Spring and Autumn offer the best weather.</p>
+            </div>
+
+            <button class="read-more-btn" onclick="toggleDetails('paris-details', this)">
+                Read More
+            </button>
+        </div>
+
+        <h1>Portfolio-status</h1>
+        <ul id="tasks">
+            <li>Task No 1</li>
+            <li>Task No 2</li>
+            <li>Task No 3</li>
+            <li>Task No 4</li>
+        </ul>
+        <div class="destination-card">
+            <h2>Tokyo, Japan 🇯🇵</h2>
+            <p>A mesmerizing blend of neon-lit skyscrapers and historic temples. Experience the cutting edge of technology alongside ancient tradition.</p>
+
+            <div id="tokyo-details" class="hidden-content">
+                <p><strong>Travel Tip:</strong> Use the efficient public transit system. Exploring neighborhoods like Shinjuku and Shibuya is highly recommended.</p>
+            </div>
+
+            <button class="read-more-btn" onclick="toggleDetails('tokyo-details', this)">
+                Read More
+            </button>
+        </div>
+
+    </div>
+</body>
+</html>
